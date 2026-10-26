@@ -1,0 +1,44 @@
+[
+  {
+    "id": "PN-01",
+    "kind": "provenance_gap",
+    "applies_to": {
+      "entity_type": "Person",
+      "observation_type": "HodClaim"
+    },
+    "text": "Raw faculty.jsonl and hod_claims.jsonl files are 0 bytes. The 47 faculty records and the HOD claim were derived from an ad hoc extraction of the saved snapshot.",
+    "quotes": [],
+    "source_refs": ["01-PRD.md §4", "validation_report.md"]
+  },
+  {
+    "id": "PN-02",
+    "kind": "program_provenance",
+    "applies_to": {
+      "entity_type": "Program",
+      "name": "Ph.D. in Computer Science and Engineering"
+    },
+    "text": "The Ph.D. program record exists in the normalized snapshot but lacks a counterpart raw programs.jsonl record.",
+    "quotes": [],
+    "source_refs": ["01-PRD.md §5"]
+  },
+  {
+    "id": "PN-03",
+    "kind": "summary_vs_table",
+    "applies_to": {
+      "entity_type": "Department"
+    },
+    "text": "The department narrative description and structured program list contain unresolved discrepancies regarding autonomous programs and intake numbers.",
+    "quotes": ["present intake of 240", "three autonomous programs"],
+    "source_refs": ["01-PRD.md §6"]
+  },
+  {
+    "id": "PN-04",
+    "kind": "inferred_links",
+    "applies_to": {
+      "relationship_types": ["AFFILIATED_WITH", "HAS_LABORATORY", "OFFERS_PROGRAM", "IS_HOD_OF"]
+    },
+    "text": "80 relationships are inferred from department page context and require review. 1 relationship (IS_HOD_OF) is a user-confirmed project override.",
+    "quotes": [],
+    "source_refs": ["05-Database-Design.md §3.2"]
+  }
+]

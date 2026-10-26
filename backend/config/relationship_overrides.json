@@ -1,0 +1,12 @@
+[
+  {
+    "id": "OVERRIDE-IS-HOD-OF-DERIVED-PERSON-3e943445fa58-DEPT-9d979a8ef1d6",
+    "type": "IS_HOD_OF",
+    "source_id": "DERIVED-PERSON-3e943445fa58",
+    "target_id": "DEPT-9d979a8ef1d6",
+    "status": "current",
+    "confirmation_source": "user_confirmed",
+    "confirmed_on": "2026-10-26",
+    "independent_source_verified": false
+  }
+]
